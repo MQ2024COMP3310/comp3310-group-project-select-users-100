@@ -7,7 +7,7 @@ from .models import Photo, Comments, Album
 from sqlalchemy import asc, text
 from . import db
 import os
-#import logger
+#import logger, CSRF
 
 main = Blueprint('main', __name__)
 
