@@ -79,7 +79,7 @@ def deletePhoto(photo_id):
   flash('Photo id %s Successfully Deleted' % photo_id)
   return redirect(url_for('main.homepage'))
 
-#New Features - Comments
+#New Features (Thomas) - Comments
 @main.route('/photo/<int:id>/comments/', methods=['GET'])
 def viewComments(id):
     photo = Photo.query.get(id)

@@ -1,6 +1,6 @@
 import unittest
 
-class TestJWTAuthentication(unittest.TestCase):
+class TestJWTAuthentication(unittest.TestCase): #Ambrose
     def setUp(self):
         self.app = app.test_client()
         self.app.testing = True
@@ -42,7 +42,7 @@ class TestJWTAuthentication(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 
-class SecurityCheckTests(teststhing):
+class SecurityCheckTests(teststhing): #Thomas
 
     def test_viewComments(self):
         #testing to see if XSS protection is working
